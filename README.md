@@ -1,5 +1,5 @@
-# Deep-Learning-Projects
-Detection of Hateful memes project
+
+# Detection of Hateful memes
 ## Introduction
 The rise of social media has led to an increase in harmful content, including hateful memes. In response, Facebook [1] launched a competition to develop methods for detecting such memes.
 
