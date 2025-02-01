@@ -20,7 +20,7 @@ Facebook provides the MMF framework for various multimodal research tasks, inclu
 To overcome these limitations, we opted to build the model from scratch, referencing [2]. We developed the training pipeline using PyTorch Lightning to facilitate efficient experimentation and metric logging. PyTorch Lightning simplifies the implementation of PyTorch models by offering a high-level interface for code organization, training loop management, and handling essential tasks such as checkpointing and logging.
 
 ## Dataset
-Facebook created a custom dataset[3] consisting of over 10,000 image-text pairs, each labeled as either Hateful or Not Hateful. The dataset includes five distinct types of memes, designed to capture various linguistic and visual nuances. One notable category within the dataset is Benign Confounders—these are memes where altering either the image or text with a single modification would render them non-hateful.
+Facebook created a custom dataset[4] consisting of over 10,000 image-text pairs, each labeled as either Hateful or Not Hateful. The dataset includes five distinct types of memes, designed to capture various linguistic and visual nuances. One notable category within the dataset is Benign Confounders—these are memes where altering either the image or text with a single modification would render them non-hateful.
 | Meme Type           | Definition                                           | %  |
 |---------------------|------------------------------------------------------|----|
 | Multimodal Hate    | Benign confounders are found for both modalities.    | 40% |
@@ -71,14 +71,15 @@ These experiments were designed to assess the impact of different configurations
 
 
 ## References
-[1] Facebook is paying Accenture $500m a year to moderate content on its platforms. https://thehustle.co/
-09072021-facebook-accenture-moderation.
+[1] Facebook is paying Accenture $500m a year to moderate content on its platforms. https://thehustle.co/09072021-facebook-accenture-moderation.
 
-[2] Facebookresearch/fine grained hateful memes. https://github.com/facebookresearch/fine_grained_hateful_memes.
+[2] How to build a multimodal deep learning model to detect hateful memes. https://drivendata.co/blog/hateful-memes-benchmark/, 2024. Accessed: April 27, 2024. 2, 3
 
-[3] Hateful Memes Dataset : https://arxiv.org/abs/2005.04790
+[3] Facebookresearch/fine grained hateful memes. https://github.com/facebookresearch/fine_grained_hateful_memes.
 
-[4] Hateful Memes Challenge : https://www.drivendata.org/competitions/64/hateful-memes/
+[4] Hateful Memes Dataset : https://arxiv.org/abs/2005.04790
+
+[5] Hateful Memes Challenge : https://www.drivendata.org/competitions/64/hateful-memes/
 
 ## Contact
 Contact me at poonamsdongare04@gmail.com to access the complete paper and more information
