@@ -1,5 +1,6 @@
-
 # Multimodal (LLM and Vision) Deep Learning Pipeline: Detection of Hateful Memes on Social Media
+## Authors: Poonam Dongare and Pankaj Kalan
+
 ## Introduction
 The rise of social media has led to an increase in harmful content, including hateful memes. In response, Facebook [1] launched a competition to develop methods for detecting such memes.
 
