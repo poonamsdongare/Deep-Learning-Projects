@@ -83,4 +83,4 @@ These experiments were designed to assess the impact of different configurations
 [5] Hateful Memes Challenge : https://www.drivendata.org/competitions/64/hateful-memes/
 
 ## Contact
-Contact me at poonamsdongare04@gmail.com to access the complete paper and more information
+Contact us at poonamsdongare04@gmail.com or pankajkalan@gmail.com to access the complete paper and implementation code.
